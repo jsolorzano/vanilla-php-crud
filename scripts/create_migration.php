@@ -70,6 +70,8 @@ if(!$options){
            ?>
        "
    ;
+   
+   file_put_contents(__DIR__."/../migrations/".$file_name, $data);
 	
 }
 ?>
